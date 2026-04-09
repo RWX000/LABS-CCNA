@@ -8,6 +8,7 @@
 -Remote access (SSH)  
 -VLANs (Support, Administration, Sales)  
 -Trunk port configuration  
+-Router-on-a-Stick
 
 ## Materials / Topology
 - The topology for each network will be star type  
@@ -20,15 +21,23 @@
 ## IP Addressing  
 | Device | IP | Mask | Gateway | VLAN|
 |:--------|:------:|------:|------:|-----:|
-|R1          |        |       |       |
-|R2          |        |       |       |
-|R3          |        |       |       |
-|R4          |        |       |       |
+|R1          ||       |       |
+|R2          ||       |       |
+|R3          ||       |       |
+|R4          ||       |       |
+|R5          ||       |       |
+|R6          ||       |       |
+|R7          ||       |       |
+|R8          ||       |       |
 |SW1         |        |       |       |
 |SW2         |        |       |       |
 |SW3         |        |       |       |
 |SW4         |        |       |       |
-|PC1         |        |       |       |
+|SW5         |        |       |       |
+|SW6         |        |       |       |
+|SW7         |        |       |       |
+|SW8         |        |       |       |
+|PC1         |       |       |       |
 |PC2         |        |       |       |
 |PC3         |        |       |       |
 |PC4         |        |       |       |
@@ -47,8 +56,8 @@
 
 
 ## Procedure and Topology
-- [x] Place all devices  
-- [x] Perform subnetting using the method (TLSM)  
+- [ ] Place all devices  
+- [] Perform subnetting using the method (TLSM)  
 - [ ] Create VLANs  
 - [ ] Configure all devices  
 - [ ] Verify connectivity  
