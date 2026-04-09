@@ -12,9 +12,9 @@
 
 ## Materials / Topology
 - The topology for each network will be star type  
-- Routers 4  
-- SW 4  
-- PCs 16  
+- Routers 8  
+- SW 8  
+- PCs 1  
 - Serial cables 4  
 - HTTP servers 2  
 
