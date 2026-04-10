@@ -5,38 +5,27 @@
 -Basic configuration on devices  
 -Subnetting (FLSM)  
 -Static routing  
--Remote access (SSH)  
--VLANs (Support, Administration, Sales)  
+-Remote access (SSH)   
 -Trunk port configuration  
--Router-on-a-Stick
+-Router-on-a-Stic
 
 ## Materials / Topology
 - The topology for each network will be star type  
-- Routers 8  
-- SW 8  
-- PCs 1  
-- Serial cables 7  
-- HTTP servers 1  
+- Router 1 (Network one)
+- Router 1 (Network two) 
+- SW 3 (Network one)
+- SW 1 (Network two)  
+- PCs  32 
+- Serial cables 1 
+- HTTP servers 2  
+
 
 ## IP Addressing  
 | Device | IP | Mask | Gateway | VLAN|
 |:--------|:------:|------:|------:|-----:|
 |R1          ||       |       |
-|R2          ||       |       |
-|R3          ||       |       |
-|R4          ||       |       |
-|R5          ||       |       |
-|R6          ||       |       |
-|R7          ||       |       |
-|R8          ||       |       |
 |SW1         |        |       |       |
 |SW2         |        |       |       |
-|SW3         |        |       |       |
-|SW4         |        |       |       |
-|SW5         |        |       |       |
-|SW6         |        |       |       |
-|SW7         |        |       |       |
-|SW8         |        |       |       |
 | PC1    | 192.168.50.2   | 255.255.255.0     | 192.168.50.1     | 10   |
 | PC2    | 192.168.50.3   | 255.255.255.0     | 192.168.50.1     | 10   |
 | PC3    | 192.168.50.35  | 255.255.255.0     | 192.168.50.1     | 20   |
@@ -57,8 +46,7 @@
 
 ## Procedure and Topology
 - [ ] Place all devices  
-- [ ] Perform subnetting using the method (TLSM)  
-- [ ] Create VLANs  
+- [ ] Perform subnetting using the method (TLSM)   
 - [ ] Configure all devices  
 - [ ] Verify connectivity  
 
