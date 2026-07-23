@@ -1,4 +1,4 @@
 <p align="center">
   <img src="l.png">
 </p>
-This repository includes hands-on CCNA labs for designing, configuring, and troubleshooting network topologies using Cisco Packet Tracer. It covers key networking concepts such as VLANs, inter-VLAN routing, IP addressing and subnetting, routing protocols, and network security using ACLs.
+Este repositorio incluye laboratorios prácticos de CCNA para diseñar, configurar y solucionar problemas en topologías de red utilizando Cisco Packet Tracer. Abarca conceptos clave de redes, tales como VLAN, enrutamiento entre VLAN, direccionamiento IP y creación de subredes, protocolos de enrutamiento y seguridad de red mediante ACL.
